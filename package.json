@@ -1,0 +1,22 @@
+{
+  "name": "kr-numbers",
+  "version": "1.0.0",
+  "description": "Convert number to Korean in your JS project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devHudi/kr-numbers.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "devHudi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devHudi/kr-numbers/issues"
+  },
+  "homepage": "https://github.com/devHudi/kr-numbers#readme"
+}
