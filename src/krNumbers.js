@@ -1,4 +1,4 @@
-const largeUnits = ["", "만", "억", "조", "해", "경"];
+const largeUnits = ["", "만", "억", "조", "경", "해"];
 const middleUnits = ["십", "백", "천"];
 const smallUnits = ["영", "일", "이", "삼", "사", "오", "육", "칠", "팔", "구"];
 
