@@ -2,6 +2,10 @@
 
 Convert numbers to Korean representations (like "삼억육천오백만") in your JavaScript project.
 
+## Demo
+
+[Live Demo](https://devhudi.github.io/kr-numbers/)
+
 ## Installation
 
 **Yarn**
