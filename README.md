@@ -16,8 +16,6 @@ $ yarn add kr-numbers
 $ npm install kr-numbers
 ```
 
-##
-
 ## Usage
 
 ### Basic
@@ -41,6 +39,7 @@ import krNumbers from "kr-numbers";
 const options = {
   spacing: true,
 };
+
 const number = krNumbers(352043, options);
 // 삼십 오만 이천 사십 삼
 ```
@@ -56,6 +55,7 @@ const options = {
   spacing: true,
   mixed: true,
 };
+
 const number = krNumbers(352043, options);
 // 35만 2,043
 ```
