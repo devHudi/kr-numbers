@@ -1,4 +1,4 @@
-const largeUnits = ["", "만", "억", "조", "경", "해"];
+const largeUnits = ["", "만", "억", "조"];
 const middleUnits = ["십", "백", "천"];
 const smallUnits = ["영", "일", "이", "삼", "사", "오", "육", "칠", "팔", "구"];
 
@@ -14,7 +14,8 @@ export default function krNumbers(number, options = {}) {
 
   if (!Number.isInteger(number))
     throw "TypeError: number is must be Number type.";
-  if (numLen > 21) throw "MaxNumberLengthError: supported max length is 21.";
+  if (number > 9999999999999998)
+    throw "MaxNumberError: supported max length is 9999999999999998.";
 
   let result = "";
   for (let i = 0; i < numLen; i++) {
