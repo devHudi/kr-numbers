@@ -11,9 +11,9 @@ function App() {
     const { value } = e.target;
 
     const isInteger = Number.isInteger(Number(value));
-    const isExceededMaxLength = value.length > 21;
+    const isExceededMax = Number(value) > 9999999999999998;
 
-    if (isInteger && !isExceededMaxLength) {
+    if (isInteger && !isExceededMax) {
       setText(value);
     }
   };

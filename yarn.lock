@@ -6336,10 +6336,10 @@ kleur@^3.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-kr-numbers@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/kr-numbers/-/kr-numbers-0.0.3.tgz#c4337d3d16aa6f04924a17ec61ab46a99ec136ed"
-  integrity sha512-7SSaBj6X2hWJafHpzZv2cLAUOtjdVUwnSZHhOMhPa/BYZ+ZzSyWuwQVmHRbAbSvtR2p5Y9q+PVc/wv4JuHpHKg==
+kr-numbers@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/kr-numbers/-/kr-numbers-0.0.4.tgz#0ecdddffa1377988302f79000f53e7b32730e8fa"
+  integrity sha512-AUQv9hVTBo7+00YcgADBR0JLYVRHmYfI1sJa+9MABmhs1yUSy/UlT13Hgx+8i39FHzE/sQbsQMjrhclHfbtC0A==
 
 last-call-webpack-plugin@^3.0.0:
   version "3.0.0"
