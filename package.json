@@ -1,8 +1,8 @@
 {
   "name": "kr-numbers",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Convert number to Korean in your JS project.",
-  "main": "index.js",
+  "main": "src/krNumbers.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
