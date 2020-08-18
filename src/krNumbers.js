@@ -38,11 +38,13 @@ export default function krNumbers(number, options = {}) {
     let curStrNum = curNum;
     if (!isZero) {
       if (!mixed) curStrNum = convertToSmallUnit(curStrNum);
-    } else curStrNum = "";
+    } else {
+      if (!mixed) curStrNum = "";
+    }
 
     // 공백 처리
     let space = "";
-    if (spacing) {
+    if (spacing && !isZero) {
       if (mixed && i % 4 === 0) space = " ";
       else if (mixed && i % 4 !== 0) space = "";
       else space = " ";
