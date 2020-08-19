@@ -6,7 +6,7 @@ const convertToSmallUnit = (number) => {
   return smallUnits[number];
 };
 
-export default function krNumbers(number, options = {}) {
+function krNumbers(number, options = {}) {
   const { mixed, spacing } = options;
 
   const strNum = number.toString();
@@ -60,3 +60,6 @@ export default function krNumbers(number, options = {}) {
 
   return result;
 }
+
+module.exports = krNumbers;
+module.exports.default = krNumbers;
