@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/devHudi/kr-numbers.git"
   },
+  "types": "index.d.ts",
   "keywords": [
     "javascript"
   ],
